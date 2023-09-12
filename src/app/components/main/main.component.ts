@@ -7,7 +7,7 @@ import { Student } from 'src/app/model/student';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent {
-  mockData: Student[] = [
+  studentList: Student[] = [
     {
       name: 'damiano',
       surname: 'di lionardo',
@@ -70,4 +70,5 @@ export class MainComponent {
     },
 
   ];
+studentData: any;
 }

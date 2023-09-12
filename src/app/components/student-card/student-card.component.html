@@ -1,1 +1,8 @@
-<p>student-card works!</p>
+<div *ngIf="studentData">
+  <ul>
+    <li>{{studentData.name}} </li>
+    <li>{{studentData.surname}} </li>
+    <li>{{studentData.age}} </li>
+    <li>{{studentData.imageUrl}} </li>
+  </ul>
+</div>
